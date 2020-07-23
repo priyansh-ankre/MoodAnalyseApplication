@@ -17,12 +17,20 @@ namespace MoodAnalyser
         }
         public string analyseMood()
         {
-            if (message.Contains("Sad"))
+            try
             {
-                return "SAD";
+                if (message.Contains("Sad"))
+                {
+                    return "SAD";
+                }
+                else
+                {
+                    return "HAPPY";
+                }
             }
-            else
+            catch (NullReferenceException)
             {
+
                 return "HAPPY";
             }
         }
