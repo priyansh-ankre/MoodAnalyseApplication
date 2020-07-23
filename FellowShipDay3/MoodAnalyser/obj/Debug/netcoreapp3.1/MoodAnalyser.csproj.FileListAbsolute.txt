@@ -1,0 +1,13 @@
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.exe
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.deps.json
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.runtimeconfig.json
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.runtimeconfig.dev.json
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.dll
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\bin\Debug\netcoreapp3.1\MoodAnalyser.pdb
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.csprojAssemblyReference.cache
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.AssemblyInfo.cs
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.dll
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.pdb
+C:\Users\hp\source\repos\FellowShipDay3\MoodAnalyser\obj\Debug\netcoreapp3.1\MoodAnalyser.genruntimeconfig.cache
