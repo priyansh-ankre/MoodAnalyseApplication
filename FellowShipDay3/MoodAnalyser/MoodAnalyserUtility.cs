@@ -15,23 +15,26 @@ namespace MoodAnalyser
         {
             this.message = message;
         }
+       
         public string analyseMood()
         {
             try
             {
+                if (message.Length == 0)
+                {
+                    throw new MoodAnalyserException("The mood is empty",MoodAnalyserException.ExceptionType.INVALID_MOOD_EXCEPTION);
+                }
                 if (message.Contains("Sad"))
                 {
                     return "SAD";
                 }
-                else
-                {
-                    return "HAPPY";
-                }
+                return "HAPPY";
             }
+
             catch (NullReferenceException)
             {
 
-                return "HAPPY";
+                throw new MoodAnalyserException("The mood is null",MoodAnalyserException.ExceptionType.INVALID_MOOD_EXCEPTION);
             }
         }
     }

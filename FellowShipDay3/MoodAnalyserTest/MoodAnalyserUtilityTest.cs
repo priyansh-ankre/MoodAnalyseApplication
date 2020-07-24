@@ -1,3 +1,4 @@
+using MoodAnalyser;
 using NUnit.Framework;
 
 namespace MoodAnalyserTest
@@ -17,10 +18,34 @@ namespace MoodAnalyserTest
             Assert.AreEqual("HAPPY", moodAnalyser.analyseMood());
         }
         [Test]
-        public void givenNullMessage_WhenAnalyse_ShouldReturnHappy()
+        public void givenNullMessage_WhenAnalyseMood_ShouldReturnInvalidException()
         {
-            MoodAnalyser.MoodAnalyserUtility moodAnalyser = new MoodAnalyser.MoodAnalyserUtility(null);
-            Assert.AreEqual("HAPPY", moodAnalyser.analyseMood());
+            try
+            {
+                MoodAnalyser.MoodAnalyserUtility moodAnalyser = new MoodAnalyser.MoodAnalyserUtility(null);
+                moodAnalyser.analyseMood();
+            }
+            catch (MoodAnalyserException e)
+            {
+                Assert.AreEqual(MoodAnalyserException.ExceptionType.INVALID_MOOD_EXCEPTION, e.type);
+            }
+            
+        
+        }
+        [Test]
+        public void givenEmptyMessage_WhenAnalyseMood_ShouldReturnInvalidException()
+        {
+            try
+            {
+                MoodAnalyser.MoodAnalyserUtility moodAnalyser = new MoodAnalyser.MoodAnalyserUtility("");
+                moodAnalyser.analyseMood();
+            }
+            catch (MoodAnalyserException e)
+            {
+
+                Assert.AreEqual(MoodAnalyserException.ExceptionType.INVALID_MOOD_EXCEPTION, e.type);
+            }
+
         }
     }
 }
